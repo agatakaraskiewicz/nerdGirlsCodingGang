@@ -101,6 +101,9 @@
             </tr>
         </tbody>
     </table>
+    <br>
+    <br>
+    <br>
 
     <table>
         <thead>
@@ -117,6 +120,9 @@
             </tr>
         </tbody>
     </table>
+    <br>
+    <br>
+    <br>
 
     <table>
         <tr>
@@ -143,5 +149,48 @@
             <td>Wedel</td>
         </tr>
     </table>
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+    <br>
+    <br>
+    <br>
+
+    <!--Forms-->
+    <form action="server.php">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First Name:
+            <br>
+            <input type="text" name="first-name" value="" placeholder="First Name">
+            <br>
+            Last Name:
+            <br>
+            <input type="text" name="last-name" value="" placeholder="Last Name">
+            <br>
+            <br>
+            <input type="radio" name="options"> Option 1
+            <input type="radio" name="options"> Option 2
+            <input type="radio" name="options"> Option 3
+            <br>
+            <input type="checkbox" name="checkboxes" checked> Checkbox 1
+            <input type="checkbox" name="checkboxes"> Checkbox 2
+            <input type="checkbox" name="checkboxes"> Checkbox 3
+            <br>
+            <label for="car-select" multiple>Select:</label>
+            <select name="cars" id="car-select">
+                <option value="BMW">BMW</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Audi">Audi</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
 </body>
 </html>
