@@ -1,11 +1,26 @@
+<!--Not necesserily good practices are possible to be found here, but the video was only about HTML basics-->
+<!--There is no CSS involved, so all the styling done in HTML should not actually happen-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Agata Karaśkiewicz">
+    <meta name="description" content="HTML tutorial exercises">
+    <meta name="keywords" content="HTML">
     <title>HTML Crash Course In 30 Minutes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .background{
+            background-color: bisque;
+            color: cadetblue;
+        }
+    </style>
 </head>
 <body>
+    <!--Headers-->
     <h1>Hello World!</h1>
     <h2>Hello World!</h2>
     <h3>Hello World!</h3>
@@ -18,18 +33,17 @@
     <!--Text formatting-->
     <div>
         <p>This is a parapraph. <br>
-
-        This is another line.
+           This is another line.
         </p>
         <p title="Tooltip">
-            Lorem ipsum dolor sit amet <strong> adipisicing</strong> elit. Modi nam, voluptas aut quod labore <span>alias asperiores accusantium tempora</span> suscipit similique corrupti <em>ipsam</em> facilis dolorum laborum ipsa maiores veniam ea consectetur.
+            Lorem ipsum dolor sit amet <strong> adipisicing</strong> elit. Modi nam, voluptas aut quod labore <span style="color: blueviolet;">alias asperiores accusantium tempora</span> suscipit similique corrupti <em>ipsam</em> facilis dolorum laborum ipsa maiores veniam ea consectetur.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nam, voluptas aut quod labore alias asperiores accusantium tempora <mark> similique corrupti</mark> ipsam facilis dolorum laborum ipsa maiores veniam ea consectetur.
         </p>
         <p>
             <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small> Modi nam, voluptas aut quod labore alias asperiores accusantium tempora suscipit similique corrupti ipsam facilis dolorum <del>laborum ipsa maiores veniam ea consectetur.</del>
             <ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nam, voluptas aut quod labore alias asperiores accusantium tempora suscipit similique corrupti ipsam facilis dolorum laborum ipsa maiores veniam ea consectetur.</ins>
         </p>
-        <p>
+        <p class="background">
             <sub>Lorem ipsum dolor sit amet consectetur adipisicing elit.</sub> Modi nam, voluptas aut quod labore alias asperiores accusantium tempora suscipit similique corrupti ipsam facilis dolorum laborum ipsa maiores veniam ea consectetur.<br>
             <sup>Lorem ipsum dolor sit amet consectetur adipisicing elit.</sup> Modi nam, voluptas aut quod labore alias asperiores accusantium tempora suscipit similique corrupti ipsam facilis dolorum laborum ipsa maiores veniam ea consectetur.
         </p>
@@ -39,21 +53,9 @@
     <a href="#bookmark">
         <img src="knoppers.jpeg" alt="A cute gray dumbo rex rat" width="600">
     </a>
-
     <br>
-
     <a href="http://www.google.com" target="_blank">Google</a>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
+    <br><br><br><br><br><br><br><br><br>
     <p id="bookmark">Another parahraph</p>
 
 
@@ -101,9 +103,7 @@
             </tr>
         </tbody>
     </table>
-    <br>
-    <br>
-    <br>
+    <br><br><br>
 
     <table>
         <thead>
@@ -120,9 +120,7 @@
             </tr>
         </tbody>
     </table>
-    <br>
-    <br>
-    <br>
+    <br><br><br>
 
     <table>
         <tr>
@@ -149,15 +147,11 @@
             <td>Wedel</td>
         </tr>
     </table>
-    <br>
-    <br>
-    <br>
+    <br><br><br>
 
     <hr>
 
-    <br>
-    <br>
-    <br>
+    <br><br><br>
 
     <!--Forms-->
     <form action="server.php">
@@ -170,8 +164,7 @@
             Last Name:
             <br>
             <input type="text" name="last-name" value="" placeholder="Last Name">
-            <br>
-            <br>
+            <br><br>
             <input type="radio" name="options"> Option 1
             <input type="radio" name="options"> Option 2
             <input type="radio" name="options"> Option 3
@@ -187,10 +180,12 @@
                 <option value="Volvo">Volvo</option>
                 <option value="Audi">Audi</option>
             </select>
-            <br>
-            <br>
+            <br><br>
             <input type="submit" value="Submit">
         </fieldset>
     </form>
+
+    <!--Buttons-->
+    <button>Click me!</button>
 </body>
 </html>
