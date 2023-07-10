@@ -19,3 +19,20 @@ A repository with exercises from Nerd Girls Coding Gang #summerOfCode initiative
         - lists
         - tables
         - forms
+2.1 CSS Crash Course In 30 Minutes --> https://youtu.be/Tfjd5yzCaxk        
+    - CSS Selectors
+    - fonts
+    - text styles
+    - borders
+        - radius
+    - padding
+    - margin
+    - box model
+    - header/container
+    - nav menu
+    - sidebar
+    - background images
+    - footer
+    - @media
+    - position
+    - clear fix
